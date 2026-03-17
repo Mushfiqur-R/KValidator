@@ -8,7 +8,7 @@ interface StatCardProps {
 export default function StatCard({ icon, iconColor, label, value }: StatCardProps) {
   return (
     <div
-      className="relative flex flex-col p-6 w-full max-w-[292px] h-[133px] overflow-hidden"
+      className="relative flex flex-col p-6 w-full sm:w-[calc(50%-8px)] lg:w-[292px] h-[133px] overflow-hidden"
       style={{
         background: "#FFFFFF0D",
         border: "0.97px solid #FFFFFF1A",
